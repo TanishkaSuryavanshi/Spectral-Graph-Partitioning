@@ -4,12 +4,12 @@ This project implements *Spectral Clustering from scratch* to demonstrate how th
 
 As a Mathematics major, I have focused this implementation on the *Spectral Graph Theory* foundations, specifically analyzing the *Fiedler Vector* and the *Spectral Gap* to achieve optimal graph partitioning.
 
-## 🚀 The Challenge: Why Spectral?
+## The Challenge: Why Spectral?
 Standard clustering algorithms like K-Means assume that clusters are convex (blobs). However, real-world data often lives on curved manifolds. In this project, I demonstrate that while K-Means fails on the "Two Moons" dataset, Spectral Clustering successfully recovers the underlying geometry.
 
 
 
-## 🧠 Mathematical Framework
+## Mathematical Framework
 The algorithm follows a rigorous Linear Algebra pipeline:
 
 1. *Similarity Matrix (W):* Constructed using a Gaussian Radial Basis Function (RBF) kernel:
@@ -20,7 +20,7 @@ The algorithm follows a rigorous Linear Algebra pipeline:
 
 
 
-## 📊 Key Results
+## Key Results
 ### 1. The Spectral Gap
 The plot of eigenvalues shows a distinct jump between $\lambda_1$ (which is 0) and $\lambda_2$. This "gap" is a signature of the number of connected components in the graph.
 
