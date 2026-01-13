@@ -1,4 +1,4 @@
-# Spectral Embeddings of Non-Linear Manifolds: A Graph Laplacian Framework
+# Spectral Graph Partitioning: Clustering Non-Convex Manifolds via Laplacian Eigenmaps
 
 This project implements *Spectral Clustering from scratch* to demonstrate how the eigen-structure of a Graph Laplacian can be used to discover topological patterns in data that are not linearly separable. 
 
